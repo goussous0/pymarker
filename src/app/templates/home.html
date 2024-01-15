@@ -1,0 +1,16 @@
+<html>
+
+<h1>Hello world</h1>
+
+<form method="post" action="{{url_for('upload_file')}}" enctype="multipart/form-data">
+<label for="wm">WaterMark text</label>
+<input type="text" name="wm_text" id="wm">
+
+<label for="doc">Document: </label>
+<input type="file" name="document" id="doc">
+
+<button type="submit">
+Submit
+</button>
+</form>
+</html>
